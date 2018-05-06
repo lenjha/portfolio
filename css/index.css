@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  font-family: 'Cutive Mono', monospace; }
+
+header {
+  background: black;
+  color: white;
+  padding: 35px; }
+
+ul {
+  justify-content: space-around;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  font-weight: bold; }
+  ul li {
+    list-style: none; }
+
+a {
+  color: black;
+  text-decoration: none; }
+  a:hover {
+    color: red; }
+
+.projects ul a {
+  font-size: 1.15rem; }
+.projects ul p {
+  font-size: .75rem;
+  margin-top: 5px; }
+
+.footer {
+  bottom: 0;
+  margin: 50px 0 0 0; }
+
+.social-links img {
+  width: 35px;
+  height: 35px;
+  margin-left: 20px; }
+
+/*# sourceMappingURL=index.css.map */

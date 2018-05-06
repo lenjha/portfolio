@@ -23,19 +23,34 @@ a {
   a:hover {
     color: red; }
 
+.section-title h2 {
+  margin-top: 60px;
+  margin-bottom: 10px; }
+
 .projects ul a {
   font-size: 1.15rem; }
 .projects ul p {
   font-size: .75rem;
   margin-top: 5px; }
 
-.footer {
-  bottom: 0;
-  margin: 50px 0 0 0; }
+.quote-section {
+  background: black;
+  color: white;
+  padding: 20px;
+  margin-top: 55px; }
 
-.social-links img {
-  width: 35px;
-  height: 35px;
-  margin-left: 20px; }
+.quote-itself {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px; }
+
+.quote {
+  font-size: .8rem;
+  margin-bottom: 0; }
+
+.quote-ref {
+  font-size: .7rem;
+  margin-top: 5px;
+  text-align: right; }
 
 /*# sourceMappingURL=index.css.map */

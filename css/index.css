@@ -1,11 +1,14 @@
 body {
   text-align: center;
-  font-family: 'Cutive Mono', monospace; }
+  font-family: 'Cutive Mono', monospace;
+  margin: 0; }
 
 header {
   background: black;
   color: white;
   padding: 35px; }
+  header a {
+    color: white; }
 
 ul {
   justify-content: space-around;
@@ -24,7 +27,7 @@ a {
     color: red; }
 
 .section-title h2 {
-  margin-top: 60px;
+  margin-top: 50px;
   margin-bottom: 10px; }
 
 .projects ul a {
@@ -37,7 +40,8 @@ a {
   background: black;
   color: white;
   padding: 20px;
-  margin-top: 75px; }
+  margin-top: 50px;
+  margin-bottom: 0; }
 
 .quote-itself {
   margin-left: auto;
